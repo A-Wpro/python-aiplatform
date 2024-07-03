@@ -494,9 +494,9 @@ class MatchingEngineIndexEndpoint(base.VertexAiResourceNounWithFutureManager):
 
         if not (network or public_endpoint_enabled or enable_private_service_connect):
             raise ValueError(
-                "Please provide `network` argument for Private Service Access endpoint,"
-                "or provide `enable_private_service_connect` for Private Service"
-                "Connect endpoint, or provide `public_endpoint_enabled` to"
+                "Please provide `network` argument for Private Service Access endpoint, "
+                "or provide `enable_private_service_connect` for Private Service "
+                "Connect endpoint, or provide `public_endpoint_enabled` to "
                 "deploy to a public endpoint"
             )
 
